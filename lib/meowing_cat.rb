@@ -7,4 +7,8 @@ def Cat
     @meow = meow
   end 
 
+  def meow
+    puts "meow!"
+  end
+
 end
