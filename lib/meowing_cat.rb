@@ -5,7 +5,7 @@ def Cat
   def instance(name, meow)
     @name = name
     @meow = meow
-  end 
+  end
 
   def meow
     puts "meow!"
