@@ -2,8 +2,9 @@ def Cat
 
   attr_accessor :name, :meow
 
-  def meow
-    puts "meow!"
+  def initialize(name, meow)
+    @name = name
+    @meow = meow
   end
 
 end
