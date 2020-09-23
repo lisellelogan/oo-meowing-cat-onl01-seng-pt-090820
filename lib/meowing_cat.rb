@@ -8,3 +8,5 @@ class Cat
   end
 
 end
+
+maru = Cat.new("Maru", "meow!")
